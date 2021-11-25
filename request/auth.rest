@@ -1,0 +1,20 @@
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "email": "p.castrec@aol.com",
+    "pseudo": "Qwak",
+    "password": "ok_hand",
+    "role": "VETO"
+}
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "pseudo": "Qwak",
+    "password": "ok_hand"
+}
+###
+access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidWlkIjoiZmNlY2JhODMtYjk0MS00NTQ0LTk4NWItMmM1NjA3YTA4NTE3IiwiaWF0IjoxNjM3ODM0NzQ5LCJleHAiOjE2Mzc5MjExNDl9.aQR9qx3Ru9DN-hritnzf1kRE9_cFOffQErWXe4Qan9k; Path=/; HttpOnly; Secure; SameSite=Lax
+fcecba83-b941-4544-985b-2c5607a08517
